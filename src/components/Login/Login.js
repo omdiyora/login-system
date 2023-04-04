@@ -70,7 +70,7 @@ const Login = () => {
                         <div className="login-box">
                             <input type="email" className="email ele" placeholder="youremail@email.com" name='email' onChange={(e) => setemail(e.target.value)} />
                             <input type="password" className="password ele" placeholder="password" name='password' onChange={(e) => setpassword(e.target.value)} />
-                            <p>Dont Have A Account</p>
+                            {/* <p>Dont Have A Account</p> */}
                             <button className="clkbtn">Login</button>
                         </div>
                         </form>
