@@ -32,9 +32,11 @@ const Login = () => {
 
       if (res.data.user.role == 1) {
         navigate('/admin/dashboard')
+        console.log("Admin Login");
+
       } else {
         navigate('/home')
-        console.log("err");
+        console.log("User Login");
       }
     } catch (err) {
       console.log(err);
